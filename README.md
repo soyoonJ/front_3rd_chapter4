@@ -1,11 +1,11 @@
 ## 개요
 ![deploy drawio](https://github.com/user-attachments/assets/caceec84-ebb5-43b1-82c9-e93ba6295717)
 
-GitHub Actions에 워크플로우를 작성해 다음과 같이 배포가 진행되도록 합니다.
+GitHub Actions에 deployment.yml 워크플로우를 작성해 다음과 같은 단계로 배포가 진행되도록 합니다.
 
 1. 저장소를 체크아웃합니다.
 2. Node.js 18.x 버전을 설정합니다.
-3. 프로젝트 의존성을 설치합니다.
+3. npm ci로 프로젝트 의존성을 설치합니다.
 4. Next.js 프로젝트를 빌드합니다.
 5. AWS 자격 증명을 구성합니다.
 6. 빌드된 파일을 S3 버킷에 동기화합니다.
