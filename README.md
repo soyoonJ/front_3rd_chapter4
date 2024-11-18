@@ -1,5 +1,5 @@
 ## 개요
-도표
+![deploy drawio](https://github.com/user-attachments/assets/caceec84-ebb5-43b1-82c9-e93ba6295717)
 
 GitHub Actions에 워크플로우를 작성해 다음과 같이 배포가 진행되도록 합니다.
 
