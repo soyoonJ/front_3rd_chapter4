@@ -18,11 +18,11 @@ GitHub Actions에 deployment.yml 워크플로우를 작성해 다음과 같은 �
 
 ## 주요 개념
 
-- GitHub Actions과 CI/CD 도구: _________
-- S3와 스토리지: _________
-- CloudFront와 CDN: _________
-- 캐시 무효화(Cache Invalidation): _________
-- Repository secret과 환경변수: _________
+- GitHub Actions과 CI/CD 도구: Github Actions과 같은 자동화 도구를 사용할 경우 push, pr 등의 이벤트 발생 시 린트체크, 테스트, 빌드, 배포 등을 실행할 수 있다.
+- S3와 스토리지: S3는 AWS에서 제공하는 객체 스토리지 서비스이며 정적 웹사이트 호스팅에도 사용된다.
+- CloudFront와 CDN: CDN은 Content Delivery Network의 약자로 웹 컨텐츠를 사용자와 가까운 곳에서 전달할 수 있게 해준다. CloudFront는 AWS에서 제공하는 CDN 서비스이다.
+- 캐시 무효화(Cache Invalidation): CloudFront에서 캐시된 컨텐츠를 무효화하여 강제로 최신 버전으로 업데이트 한다.
+- Repository secret과 환경변수: key value 형태로 저장되며 Environment Variable과 비슷하게 동작하지만 외부로는 공개되지 않기 때문에, AWS 키와 같이 보안이 필요한 정보들을 저장하는데에 사용한다.
 
 ## CDN과 성능최적화
 |s3|cloudfront|
